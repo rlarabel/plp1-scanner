@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Basic Tests",
+      "setup": "",
+      "run": "make test_basic",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 2,
+      "points": 45
+    },
+    {
+      "name": "Errors",
+      "setup": "",
+      "run": "make test_errors",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 2,
+      "points": 5
+    },
+    {
+      "name": "Advanced",
+      "setup": "",
+      "run": "make test_adv",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 2,
+      "points": 20
+    }
+  ]
+}
